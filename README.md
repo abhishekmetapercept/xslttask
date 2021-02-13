@@ -146,7 +146,7 @@
    </tr> 
     <xsl:for-each select="catalog/book"> 
         <xsl:if test="price>10">
-          <xsl:attribute name="style">background-color: yellow</xsl:attribute>
+          <xsl:attribute name="style">background-color: red</xsl:attribute>
               </xsl:if>
    <tr> 
     <td><xsl:value-of select="book id"/></td> 
